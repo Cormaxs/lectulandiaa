@@ -460,7 +460,7 @@ export default function Home({ booksData, currentPage, totalPages, error, curren
                         })
                     ) : (
                         <p className="no-results">
-                            No se encontraron títulos que coincidan con la búsqueda "{currentQuery}". Intenta con otros términos.
+                            No se encontraron títulos que coincidan con la búsqueda {currentQuery}. Intenta con otros términos.
                         </p>
                     )}
                 </div>
