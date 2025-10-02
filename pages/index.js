@@ -361,7 +361,7 @@ export default function Home({ booksData, currentPage, totalPages, error, curren
     return (
         <>
             <Head>
-                <title>{currentQuery ? `Resultados: ${currentQuery}` : `Catálogo de Libros - Pág ${currentPage}`}</title>
+                <title>{currentQuery ? `Resultados: ${currentQuery}` : `lectulandiaa - Pagina  ${currentPage}`}</title>
                 <meta name="description" content={currentQuery ? `Resultados de búsqueda para ${currentQuery}.` : `Explora el catálogo de libros, página ${currentPage}.`} />
             </Head>
 
