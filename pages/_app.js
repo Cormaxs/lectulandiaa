@@ -13,6 +13,10 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <>
+
+    <head>
+    <meta name="google-adsense-account" content="ca-pub-5933305559914134"></meta>
+    </head>
       {/*
         1. SCRIPT PRINCIPAL (Cargador de gtag.js)
         La estrategia "afterInteractive" le dice a Next.js que espere hasta que
