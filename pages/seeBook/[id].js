@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 // 📚 Dominio base para la URL canónica y Open Graph. ¡CÁMBIALO!
-const BASE_DOMAIN = 'https://tudominio.com';
+const BASE_DOMAIN = 'https://lectulandia.com';
 
 export default function SeeBookPage({ book, fullSlug }) {
     
